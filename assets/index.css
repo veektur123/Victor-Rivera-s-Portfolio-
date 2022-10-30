@@ -1,0 +1,55 @@
+.nav-bar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #646E68;
+}
+.title{
+    display: flex;
+    align-items: center;
+    background-color: #C9C5CB;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+  
+}
+.title h1{
+    padding: 0 30px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    font-size: 20px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+}
+.content{
+    padding: 0 50px;
+    background-color: #BAACBD;
+}
+.section-title{
+    font-size: 45px;
+    text-align: center;
+    padding: 20px 0;
+}
+.about-me-text{
+    font-size: 20px;
+}
+#about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about-me img{
+    display: block;
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    margin: 20px 0;
+}
