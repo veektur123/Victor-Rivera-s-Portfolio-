@@ -30,6 +30,7 @@
 .content{
     padding: 0 50px;
     background-color: #BAACBD;
+    padding: 20px;
 }
 .section-title{
     font-size: 45px;
@@ -53,3 +54,117 @@
     height: auto;
     margin: 20px 0;
 }
+.first-project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.first-project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: top;
+    max-width: 700px;
+    max-height: 700px;
+    background-color: white;
+    border-radius: 10px;
+}
+.project-title{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.project-links{
+    padding: 15px;
+    
+    
+}
+.project-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.first-project img{
+    display: block;
+    max-width:700px;
+    max-height:700px;
+    width: auto;
+    height: auto;
+    margin: 20px 0;
+}
+
+.project-links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    max-height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.project img{
+    display: block;
+    max-width:325px;
+    max-height:325px;
+    width: auto;
+    height: auto;
+    margin: 20px 0;
+}
+.about-me-text{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+.contact-section{
+    display:flex;
+    font-size: 20px;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+.contact-section div p{
+    text-decoration: none;
+    color: red;
+}
+.contact-section div p a{
+    text-decoration: none;
+    color: blue;
+}
+@media screen and (max-width: 844px) {
+    .first-project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 350px;
+        max-height: 350px;
+        background-color: white;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .first-project img{
+        display: block;
+        max-width:325px;
+        max-height:325px;
+        width: auto;
+        height: auto;
+        margin: 20px 0;
+    }
+  }
